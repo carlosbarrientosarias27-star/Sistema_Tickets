@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "usuario": "Juan Perez",
+    "mensaje": "No puedo entrar a mi cuenta, me dice contraseña incorrecta."
+  },
+  {
+    "id": 2,
+    "usuario": "Maria Garcia",
+    "mensaje": "El sistema está muy lento desde la actualización de ayer."
+  }
+]
