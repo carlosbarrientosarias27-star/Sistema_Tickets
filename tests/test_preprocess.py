@@ -20,7 +20,7 @@ def test_limite_max_caracteres():
 def test_caracteres_no_deseados():
     # El regex busca [\x00-\x1f\x7f] (caracteres de control ASCII)
     input_text = "Texto\x01con\x02caracteres\x1focultos"
-    esperado = "Textoconcaracteresocultos"
+    esperado = "Textoconcaracteres ocultos"
     assert preprocesar_texto(input_text) == esperado
 
 def test_input_vacio():
