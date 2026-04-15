@@ -1,10 +1,9 @@
-import os
 import json
 import re
 import ollama
 from datetime import datetime
 from enum import Enum
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, Optional
 
 # ============================================
 # CONFIGURACIÓN LOCAL

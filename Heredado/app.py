@@ -17,7 +17,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from datetime import datetime
 from enum import Enum
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 
 # Cargar variables de entorno
 load_dotenv()
@@ -289,7 +289,7 @@ def ejecutar_accion_segun_ticket(ticket: TicketAnalizado) -> None:
     print(f"🔧 ACCIÓN SUGERIDA POR IA: {ticket.accion_sugerida}")
     
     if ticket.entidades:
-        print(f"\n📋 ENTIDADES EXTRAÍDAS:")
+        print("\n📋 ENTIDADES EXTRAÍDAS:")
         for key, value in ticket.entidades.items():
             print(f"   {key}: {value}")
 
@@ -325,7 +325,7 @@ def pipeline_procesamiento_ticket(texto_usuario: str) -> Optional[TicketAnalizad
         print(f"   ❌ Error: {resultado.get('error')}")
         return None
     
-    print(f"   ✅ Análisis completado")
+    print("   ✅ Análisis completado")
     print(f"   Tokens usados: {resultado['tokens_usados']}")
     
     # Paso 3: Transformación

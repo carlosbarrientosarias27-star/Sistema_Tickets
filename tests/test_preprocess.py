@@ -1,5 +1,4 @@
 # tests/test_preprocess.py
-import pytest
 from src.preprocess import preprocesar_texto
 
 def test_limpieza_html():

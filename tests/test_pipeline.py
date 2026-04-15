@@ -1,6 +1,6 @@
 # tests/test_pipeline.py
 import pytest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 from src.pipeline import TicketPipeline
 from src.models import TicketAnalizado, CategoriaTicket
 
