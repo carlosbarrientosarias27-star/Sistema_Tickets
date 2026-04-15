@@ -1,4 +1,3 @@
-import pytest
 from unittest.mock import patch
 from src.nlp_analyzer import analizar_ticket_con_nlp
 

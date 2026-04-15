@@ -1,4 +1,3 @@
-import pytest
 from src.actions import ejecutar_accion_segun_ticket
 from src.models import TicketAnalizado, CategoriaTicket, UrgenciaTicket
 
