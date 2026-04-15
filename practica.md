@@ -25,4 +25,5 @@
 - [ ] Añadir **caché** para las respuestas de la API.
 - [ ] Implementar **procesamiento asíncrono** (`asyncio`).
 - [ ] Crear una **API REST** utilizando FastAPI.
-- [ ] Añadir soporte para **múltiples proveedores de IA** (OpenAI, Anthropic, Ollama, etc.).
+
+Probando
