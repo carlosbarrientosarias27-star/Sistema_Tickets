@@ -1,7 +1,7 @@
 import os
 import json
 import re
-import ollama  # Sustituimos openai por ollama
+import ollama
 from datetime import datetime
 from enum import Enum
 from typing import Dict, List, Optional, Tuple
